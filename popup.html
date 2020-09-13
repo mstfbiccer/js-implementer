@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<head>
+  <style>
+    .js-implementer {
+      height: 500px;
+      width: 500px;
+      background: #272824;
+    }
+
+    .js-implementer #editor {
+      position: absolute;
+      top: 50px;
+      right: 0;
+      bottom: 50px;
+      left: 0;
+    }
+
+    .js-implementer h1 {
+      color: #b4b4b5;
+      margin: 10px;
+    }
+
+    .js-implementer button {
+      outline: 0;
+      bottom: 0;
+      position: fixed;
+      width: 100%;
+      height: 40px;
+      background: #f3f3f3;
+      border: 2px solid #272824;
+      font-size: 16px;
+      color: #272824;
+      font-weight: 800;
+      cursor:pointer;
+      z-index: 999;
+    }
+  </style>
+
+</head>
+
+<body class="js-implementer">
+
+  <script src="popup.js"></script>
+  <script src="ace.js"></script>
+  <script src="theme.js"></script>
+  <script src="mode.js"></script>
+  <h1>JS Implementer</h1>
+  <div id="editor"></div>
+  <button>SAVE</div>
+</body>
+</html>

