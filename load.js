@@ -3,4 +3,3 @@ if(localStorage["js_implementer"]){
   script.innerHTML =atob(localStorage["js_implementer"]) ;
   document.head.appendChild(script);
 }
-

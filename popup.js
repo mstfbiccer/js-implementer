@@ -71,7 +71,7 @@ function getLocaleJS() {
           var {
             id: tabId
           } = tabs[0].url;
-          var code = 'if (localStorage["js_implementer"]) {eval(atob(localStorage["js_implementer"]));atob(localStorage["js_implementer"]);}';
+          var code = 'if (localStorage["js_implementer"]) {atob(localStorage["js_implementer"]);}';
           chrome.tabs.executeScript(tabId, {
             code
           }, function (result) {
