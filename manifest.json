@@ -2,7 +2,7 @@
   "name": "JS Implementer",
   "version": "3.0",
   "description": "Let's Add JS",
-  "permissions": ["storage","tabs", "http://*/*", "https://*/*"],
+  "permissions": ["tabs", "http://*/*", "https://*/*"],
   "background": {
     "scripts": ["background.js"],
     "persistent": false
